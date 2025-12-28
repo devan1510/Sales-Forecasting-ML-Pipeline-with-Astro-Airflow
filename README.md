@@ -1,6 +1,6 @@
 # Sales Forecasting MLOps Pipeline
 
-Overview
+**Overview**
 
 A production-ready MLOps platform for sales forecasting that demonstrates modern machine learning engineering practices. Built on Astronomer (Apache Airflow), this project implements an end-to-end ML pipeline with ensemble modeling, comprehensive visualization, and real-time inference capabilities via Streamlit.
 
