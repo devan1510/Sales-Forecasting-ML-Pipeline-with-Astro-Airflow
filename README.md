@@ -34,9 +34,10 @@ Streamlit	Interactive prediction interface
 Containerization	Docker 
 
 # Clone and Setup
- **1.Clone the repository**
+ **1. Clone the repository**
 
- **Start Astronomer Airflow services**
+ **2. Start Astronomer Airflow services**
+ 
   astro dev start
 
 # ML Pipeline Features
