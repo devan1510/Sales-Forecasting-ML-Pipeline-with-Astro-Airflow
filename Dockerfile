@@ -12,8 +12,8 @@ RUN apt-get update && apt-get install -y \
 USER astro
 
 # Set environment variables for MLflow and MinIO
-ENV MLFLOW_TRACKING_URI=http://mlflow:5001
-ENV MLFLOW_S3_ENDPOINT_URL=http://minio:9000
-ENV AWS_ACCESS_KEY_ID=minioadmin
-ENV AWS_SECRET_ACCESS_KEY=minioadmin
-ENV AWS_DEFAULT_REGION=us-east-1
+ENV MLFLOW_TRACKING_URI=
+ENV MLFLOW_S3_ENDPOINT_URL=
+ENV AWS_ACCESS_KEY_ID=
+ENV AWS_SECRET_ACCESS_KEY=
+ENV AWS_DEFAULT_REGION=
