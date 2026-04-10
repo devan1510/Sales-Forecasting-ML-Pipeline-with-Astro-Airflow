@@ -15,8 +15,6 @@ initdb()
 
 # The following code patches errors caused by missing OS Variables, Airflow Connections, and Airflow Variables
 
-
-# =========== MONKEYPATCH BaseHook.get_connection() ===========
 def basehook_get_connection_monkeypatch(key: str, *args, **kwargs):
     print(
         f"Attempted to fetch connection during parse returning an empty Connection object for {key}"
